@@ -1,0 +1,32 @@
+{
+  "name": "password-storage",
+  "version": "1.0.0",
+  "description": "password-storage with node.js and sqlite3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoUemura/password-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoUemura/password-storage/issues"
+  },
+  "homepage": "https://github.com/BrunoUemura/password-storage#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-base64": "^3.6.0",
+    "knex": "^0.95.4",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

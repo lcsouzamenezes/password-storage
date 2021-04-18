@@ -30,11 +30,12 @@ Or download the zip file directly from [Github](https://github.com/BrunoUemura/p
 
 It is important to run the command `npm run knex:migrate` to create the database before running the app.
 Then you can send requests to the following routes:
-`GET` - `http://localhost:4000/notes`
-`GET` - `http://localhost:4000/decodednotes`
-`POST` - `http://localhost:4000/notes`
-`PUT` - `http://localhost:4000/notes/:id`
-`DELETE` - `http://localhost:4000/notes/:id`
+
+- `GET`: `http://localhost:4000/notes`
+- `GET`: `http://localhost:4000/decodednotes`
+- `POST`: `http://localhost:4000/notes`
+- `PUT`: `http://localhost:4000/notes/:id`
+- `DELETE`: `http://localhost:4000/notes/:id`
 
 ### Example of GET Request
 

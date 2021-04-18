@@ -24,7 +24,7 @@ Or download the zip file directly from [Github](https://github.com/BrunoUemura/p
 
 - To install the dependencies `npm install`
 - To create the database `npm run knex:migrate`
-- To run the project, make sure to start the Android or iPhone emulator `npm start`
+- To run the project, make sure that the database was created in ./src/database/database.sqlite3 then run the command `npm start`
 
 ## How it works
 

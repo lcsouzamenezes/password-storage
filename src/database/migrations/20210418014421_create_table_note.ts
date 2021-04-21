@@ -1,4 +1,6 @@
-exports.up = (knex) => {
+import Knex from "knex";
+
+exports.up = (knex: Knex) => {
   return knex.schema.createTable("note", (table) => {
     table.increments("id");
     table.text("note").notNullable();
@@ -7,6 +9,6 @@ exports.up = (knex) => {
   });
 };
 
-exports.down = (knex) => {
+exports.down = (knex: Knex) => {
   return knex.schema.dropTable("note");
 };
